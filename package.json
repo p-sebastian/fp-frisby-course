@@ -1,0 +1,20 @@
+{
+  "name": "video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-container-style.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p-sebastian/fp-frisby-course.git"
+  },
+  "author": "Sebastian Penafiel Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/p-sebastian/fp-frisby-course/issues"
+  },
+  "homepage": "https://github.com/p-sebastian/fp-frisby-course#readme",
+  "dependencies": {}
+}
