@@ -24,3 +24,10 @@ const res4 = id (Box ('crayons'));
 
 // res3 == res4
 console.log (res3, res4);
+
+// @note adding the 'of' method to a functor
+// makes it into a 'pointed functor'
+// the of method elevates any value into the type
+// of the functor
+// Box.of (3) -> Box (3)
+// Observable.of (3) -> Observable (3)
