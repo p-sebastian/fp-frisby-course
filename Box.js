@@ -10,6 +10,8 @@ const Box = x =>
   fold: f => f (x),
   // Flips map, takes a second box and returns
   // the map result
+  // will run Box1 function applied to Box2 x value, by mapping.
+  // Box (x => x + 1).ap (Box (2))
   ap: b2 => b2.map (x),
   inspect: _ => `Box (${x})`
 });
